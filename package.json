@@ -1,11 +1,11 @@
 {
-  "homepage" : "https://graganold.github.io/gh-template/",
+  "homepage": "https://graganold.github.io/gh-template/",
   "name": "ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
@@ -13,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
